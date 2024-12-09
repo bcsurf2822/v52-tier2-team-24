@@ -8,7 +8,7 @@ import GoogleAutoComplete from "./customInputs/GoogleAutocomplete";
 
 import { APIProvider } from "@vis.gl/react-google-maps";
 
-const GOOGLE_API_KEY = import.meta.env.API_KEY;
+const GOOGLE_API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
 
 import { AppointmentConfirmation } from "./AppointmentConfirmation";
 import { TimeslotConfirmation } from "./TimeslotConfirmation";
