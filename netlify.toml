@@ -1,3 +1,0 @@
-[build.environment]
-  SECRETS_SCAN_OMIT_PATHS = "dist/assets/*"
-  SECRETS_SCAN_OMIT_KEYS = "VITE_GOOGLE_API_KEY"
